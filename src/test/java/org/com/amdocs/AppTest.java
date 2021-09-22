@@ -34,7 +34,7 @@ public class AppTest
     public void testApp()
     {
         boolean isJenkinsBuild = Boolean.valueOf(System.getenv("FROM_JENKINS"));
-        //System.out.println("CHECKING "+isJenkinsBuild);
+        System.out.println("CHECKING "+isJenkinsBuild);
         assertTrue( true );
     }
 }
